@@ -1,6 +1,5 @@
 package dl.velo.data;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Class Item.
  */
@@ -8,14 +7,14 @@ public class Item {
 
 	/** The height. */
 	private double depth, rad, width, height;
-	
+
 	/** The shape. */
 	private ItemShape shape;
 
 	/**
 	 * Instantiates a new item with shape Round.
 	 *
-	 * @param depth the depth
+	 * @param depth   the depth
 	 * @param radious the radious
 	 */
 	public Item(double depth, double radious) {
@@ -27,8 +26,8 @@ public class Item {
 	/**
 	 * Instantiates a new item with shape Rectangle.
 	 *
-	 * @param depth the depth
-	 * @param width the width
+	 * @param depth  the depth
+	 * @param width  the width
 	 * @param height the height
 	 */
 	public Item(double depth, double width, double height) {
